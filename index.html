@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">Crystals Collector!</h1>
+      <p class="lead">You will be given a random number at the start of the game.</p>
+      <hr class="my-4">
+      <p>
+        There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+        The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Random Number: <abbr  id="random-number"></abbr></h1>
+        </div>
+      </div>
+      <div class="row">
+        <img class="col-3" id="crystal1" src="https://cdn.tutsplus.com/vector/uploads/2014/03/0_Gems_tutorial_diamond.jpg" height="200px" width="200px"></img>
+        <img class-"col-3" id="crystal2" src="https://cdn.tutsplus.com/vector/uploads/2014/03/0a_Gems_tutorial_ruby.jpg"  height="200px" width="200px"></img>
+        <img class-"col-3" id="crystal3" src="https://cdn.tutsplus.com/vector/uploads/2014/03/0c_Gems_tutorial_amber.jpg"  height="200px" width="200px"></img>
+        <img class-"col-3" id="crystal4" src="https://cdn.tutsplus.com/vector/uploads/2014/03/0d_Gems_tutorial_amethyst.jpg"  height="200px" width="200px"></img>
+      </div>
+      <div class="row">
+        <h1 class="col border-right text-center">Total Points: <abbr id="crystalTotalPoints"></abbr></h1>
+        <h1 class="col border-right text-center">Wins: <abbr id="wins"></abbr></h1>
+        <h1 class="col text-center">Losses: <abbr id="losses"></abbr></h1>
+      </div>
+  </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
